@@ -1,0 +1,9 @@
+import pyautogui, time
+time.sleep(7)
+f = open("Beemovie script", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    pyautogui.press("enter")
+    
+    #You need a Beemovie txt file named Beemovie script!
+    #The beemovie script can be located among the other codes!
